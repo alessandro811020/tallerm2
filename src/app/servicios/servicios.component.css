@@ -1,0 +1,15 @@
+.servicios{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    width: 80%;
+}
+
+.bloqueServicio{
+    padding: 40px;
+}
+
+.consulta{
+    color:rgba(184, 184, 184, 0.932)
+}

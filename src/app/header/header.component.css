@@ -1,0 +1,44 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: blueviolet;
+    width: 100%;
+    height: 180px;
+    background-color: white;
+    float:left;
+    /* right:0; */
+    /* position:fixed; */
+    /* Esto del fixed tenemos que ver si se mantiene al poner lo demas */
+}
+
+.logo{
+    padding-left: 30px;
+    padding-top: 7px
+}
+
+.tablon_informacion{
+    display: flex;
+    flex-direction: column;
+}
+
+.linea_informacion{
+    display: flex;
+    flex-direction: row;
+}
+
+.iconoHeader{
+    width: 25px;
+    height: 25px;
+}
+
+.iconSocial{
+    width: 35px;
+    height: 35px;
+    padding-right: 5px
+}
+
+.textoContenido{
+    padding-left: 10px;
+    margin-top: -18px;
+}

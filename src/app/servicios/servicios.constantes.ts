@@ -1,0 +1,20 @@
+export const constantesServicios={
+    direccion_suspenciones:'../../assets/images/trabajos/suspensiones.png',
+    direccion_electricidad:'../../assets/images/trabajos/electricidad.png',
+    direccion_capa_pintura:'../../assets/images/trabajos/chapa_pintura.png',
+    direccion_mecanica_general:'../../assets/images/trabajos/mecanica_general.png',
+    direccion_personalizacion:'../../assets/images/trabajos/personalizacion.png',
+    direccion_itv:'../../assets/images/trabajos/itv.png',
+    direccion_lavado:'../../assets/images/trabajos/lavado.png',
+    direccion_moto_sustitucion:'../../assets/images/trabajos/motosustitucion.png',
+    direccion_recogida_entrega:'../../assets/images/trabajos/recogida_entrega_domicilio.png',
+    texto_suspenciones:'Suspenciones',
+    texto_electricidad:'Electricidad',
+    texto_capa_pintura:'Chapa y Pintura',
+    texto_mecanica_general:'Mecánica General',
+    texto_personalizacion:'Personalización Motos',
+    texto_itv:'ITV',
+    texto_lavado:'Lavado*',
+    texto_moto_sustitucion:'Moto de Sustitución*',
+    texto_recogida_entrega:'Recogida y Entrega a Domicilio*'
+}
