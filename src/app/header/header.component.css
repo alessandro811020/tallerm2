@@ -25,6 +25,7 @@ header{
 .linea_informacion{
     display: flex;
     flex-direction: row;
+    padding-top: 5px;
 }
 
 .iconoHeader{
@@ -33,12 +34,13 @@ header{
 }
 
 .iconSocial{
-    width: 35px;
-    height: 35px;
-    padding-right: 5px
+    width: 50px;
+    height: 50px;
+    padding-right: 10px;
+    padding-top:5px;
 }
 
 .textoContenido{
     padding-left: 10px;
-    margin-top: -18px;
+    /* margin-top: -18px; */
 }
