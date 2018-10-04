@@ -1,0 +1,21 @@
+<div class="chat-window">
+  <div class="modal-title">
+    <h4>Chat:</h4>
+    <input id="usuario" type="text" name="nombre" class="form-control" [(ngModel)]="nombre" placeholder="Usuario">
+  </div>
+  <br>
+  <div class="app-mensajes" id="app-mensajes">
+    <div class="text-right" *ngFor="let chat of _cs.chats" 
+      [ngClass]="{'text-right':idUsuario==chat.idUsuario}">
+      <span class="badge"
+      [ngClass]="{'badge-primary': idUsuario==chat.idUsuario, 
+                    'badge-success': idUsuario!=chat.idUsuario}">{{chat.nombre}}</span>
+      <p>{{chat.mensaje}}</p>
+    </div>
+  </div>
+  <div class="modal-footer">
+    <input type="text" name="mensaje" class="form-control" [(ngModel)]="mensaje" placeholder="Mensaje"
+      (keyup.enter)="enviar_mensaje()">
+    <button type="button" class="btn btn-primary" (click)="enviar_mensaje()">Enviar Mensaje</button>
+  </div>
+</div>
